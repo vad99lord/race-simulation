@@ -275,10 +275,10 @@ if __name__ == '__main__':
     # use_print:            set if prints to console should be used or not (does not suppress hints/warnings)
     # use_print_result:     set if result should be printed to console or not
     # use_plot:             set if plotting should be used or not
-    sim_opts_ = {"use_prob_infl": False,
-                 "create_rand_events": False,
+    sim_opts_ = {"use_prob_infl": True,
+                 "create_rand_events": True,
                  "use_vse": False,
-                 "no_sim_runs": 100,
+                 "no_sim_runs": 1,
                  "no_workers": 1,
                  "use_print": True,
                  "use_print_result": True,
