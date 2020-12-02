@@ -231,7 +231,6 @@ def main(sim_opts: dict, race_pars_file: str, mcs_pars_file: str) -> list:
 
     if sim_opts["use_print"]:
         print("INFO: Simulation finished successfully!")
-    print(race_results)
     return race_results  # return required in case of CI testing
 
 
