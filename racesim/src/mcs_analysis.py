@@ -120,6 +120,7 @@ def mcs_analysis(race_results: list,
 
         fig.suptitle("Distribution of final positions (%i simulated races)" % no_sim_runs)
         plt.show()
+        print("plotting")
 
 
 # testing --------------------------------------------------------------------------------------------------------------
