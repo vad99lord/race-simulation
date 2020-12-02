@@ -28,18 +28,6 @@ the simulation is located at the bottom. Have a look there to insert the require
 repo_path_ = os.path.dirname(os.path.abspath(__file__))
 
 # read dependencies from requirements.txt
-""" requirements_path = os.path.join(repo_path_, 'requirements.txt')
-dependencies = []
-
-with open(requirements_path, 'r') as fh_:
-    line = fh_.readline()
-
-    while line:
-        dependencies.append(line.rstrip())
-        line = fh_.readline()
-
-# check dependencies
-pkg_resources.require(dependencies)"""
 
 
 # ----------------------------------------------------------------------------------------------------------------------
