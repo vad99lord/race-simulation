@@ -278,11 +278,11 @@ if __name__ == '__main__':
     sim_opts_ = {"use_prob_infl": False,
                  "create_rand_events": False,
                  "use_vse": False,
-                 "no_sim_runs": 1,
+                 "no_sim_runs": 100,
                  "no_workers": 1,
                  "use_print": True,
                  "use_print_result": True,
-                 "use_plot": False}
+                 "use_plot": True}
 
     # ------------------------------------------------------------------------------------------------------------------
     # SIMULATION CALL --------------------------------------------------------------------------------------------------
