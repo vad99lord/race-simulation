@@ -278,7 +278,7 @@ if __name__ == '__main__':
     sim_opts_ = {"use_prob_infl": True,
                  "create_rand_events": True,
                  "use_vse": False,
-                 "no_sim_runs": 100,
+                 "no_sim_runs": 1,
                  "no_workers": 1,
                  "use_print": True,
                  "use_print_result": False,
