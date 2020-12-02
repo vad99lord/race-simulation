@@ -280,8 +280,8 @@ if __name__ == '__main__':
                  "use_vse": False,
                  "no_sim_runs": 1,
                  "no_workers": 1,
-                 "use_print": True,
-                 "use_print_result": True,
+                 "use_print": False,
+                 "use_print_result": False,
                  "use_plot": True}
 
     # ------------------------------------------------------------------------------------------------------------------
