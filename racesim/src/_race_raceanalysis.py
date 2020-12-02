@@ -296,6 +296,7 @@ class RaceAnalysis(object):
         plt.title("race progress over race time")
         plt.grid()
         plt.show()
+        plt.savefig('raceprogress.png')
 
     def __plot_fcy_phases_over_laps(self, ax: plt.axes) -> None:
         # get y limits of axes
@@ -342,6 +343,7 @@ class RaceAnalysis(object):
         plt.title("laptimes over laps")
         plt.grid()
         plt.show()
+        plt.savefig('laptimes.png')
 
     def plot_positions(self) -> None:
         # plot positions vs laps
@@ -358,6 +360,7 @@ class RaceAnalysis(object):
         plt.title("positions over laps")
         plt.grid()
         plt.show()
+        plt.savefig('positions.png')
 
     def plot_racetime_diffto_refdriver(self, ref_position: int) -> None:
         # calculate racetime differences
@@ -381,6 +384,7 @@ class RaceAnalysis(object):
         plt.title("racetime differences to reference driver over laps")
         plt.grid()
         plt.show()
+        plt.savefig('difftodriver.png')
 
     def plot_racetime_diffto_reflaptime(self, ref_laptime: float) -> None:
         # calculate racetime differences
@@ -403,6 +407,7 @@ class RaceAnalysis(object):
         plt.title("racetime differences to reference laptime over laps")
         plt.grid()
         plt.show()
+        plt.savefig('difftolap.png')
 
     def __plot_every_driver_over_laps(self,
                                       plot_data: np.ndarray,
